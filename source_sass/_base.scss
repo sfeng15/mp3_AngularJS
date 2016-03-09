@@ -1,1 +1,109 @@
 // Add any custom Sass & CSS here
+//index
+//
+//
+body{
+  /*
+  background:url("/data/images/tt0012349.jpg");
+  */
+}
+#head{
+  font-size: xx-large;
+}
+#subhead{
+  font-size: x-large;
+}
+
+//list view
+//
+//
+button{
+  color: #ffffff;
+  background-color: #0b97c4;
+  font-size: 20px;/*make word large*/
+  width: 100%;/* make buttons close to each other*/
+  height: 40px;
+}
+.panel{
+  background-color: #8a8a8a;
+  width: 60%;/*set the total width of the panel*/
+  margin: 0 auto;
+  padding: 10px;/*make the filter not too close to the upper bound*/
+}
+.content{
+  width: 60%;/*set the total width of the panel*/
+  margin: 0 auto;
+  padding: 10px;/*make the filter not too close to the upper bound*/
+  img{
+    height: 180px;
+    width: 80%;
+  }
+}
+#filter{
+  width: 100%;
+  margin-top: 20px;
+}
+
+#listBox{
+  width: 100%;
+  height: 200px;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+}
+#listBox:hover {
+  width: 100%;
+  height: 200px;
+  background-color: #808080;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 5px;
+}
+//gallery view
+//
+//
+#galleryBox{
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+
+}
+#galleryBox:hover {
+  background-color: #808080;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 5px;
+}
+//detail view
+//
+//
+#detailsPanel {
+  background:linear-gradient(45deg, #717171, white);
+
+  width: 60%;/*set the total width of the panel*/
+  margin: 0 auto;
+  padding: 30px;
+}
+.arrow{
+  background-color: #808080;
+  a{
+    color: #ffffff;
+    font-size: 50px;
+  }
+}
+.title{
+  font-size: x-large;
+  color: hotpink;
+}
+
+.rank{
+ color: coral;
+}
+#plot{
+  font-style: italic;
+  color:forestgreen;
+
+}
+.short{
+  color: aquamarine;
+}
