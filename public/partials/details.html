@@ -1,7 +1,7 @@
 <div ng-controller="detailsController">
     <!--<div id="detailsPanel" background= "/data/images/tt0012349.jpg" >-->
     <!--<div id="detailsPanel" background= url("/data/images/tt0012349.jpg") >-->
-    <div id="detailsPanel"> <!--style="background-image: url(/data/images/{{movie.imdbID}}.jpg); background-repeat: no-repeat;background-size: 100% 100%;"--> 
+    <div id="detailsPanel"> <!--style="background-image: url(/data/images/{{movie.imdbID}}.jpg); background-repeat: no-repeat;background-size: 100% 100%;"-->
     <!--<div id="detailsPanel" style="background-image: "/data/images/tt0012349.jpg" >-->
 
     <!--<div id="detailsPanel"  >-->
@@ -24,7 +24,7 @@
         </div>
         <div class="row"><!--img and content-->
             <div class="small-4 columns  ">
-                <img ng-src="/data/images/{{movie.imdbID}}.jpg">
+                <img ng-src="./data/images/{{movie.imdbID}}.jpg">
             </div>
             <div class="small-8 columns  ">
                 <p id="plot">{{movie.plot}}</p>

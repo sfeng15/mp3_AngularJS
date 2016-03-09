@@ -3,7 +3,7 @@
 var Controllers = angular.module('Controllers', []);
 
 Controllers.controller('listController', ['$scope','$http', function($scope,$http) {
-  $http.get('data/imdb250.json')
+  $http.get('./data/imdb250.json')
   .success(function(data){
     $scope.movies = data;
     console.log(data);
@@ -19,7 +19,7 @@ Controllers.controller('listController', ['$scope','$http', function($scope,$htt
 
 
 Controllers.controller('detailsController', ['$scope','$routeParams', '$http',function($scope,$routeParams,$http) {
-  $http.get('data/imdb250.json')
+  $http.get('./data/imdb250.json')
      .success(function(data){
       $scope.movies = data;
       $scope.movie=data[($routeParams.rank)-1];
@@ -34,7 +34,7 @@ Controllers.controller('detailsController', ['$scope','$routeParams', '$http',fu
 }]);
 
 Controllers.controller('galleryController',['$scope','$http',function($scope,$http){
-    $http.get('data/imdb250.json')
+    $http.get('./data/imdb250.json')
         .success(function(data){
             $scope.movies = data;
             console.log(data);
